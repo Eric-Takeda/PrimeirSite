@@ -241,3 +241,64 @@ td:last-child {  /*Td que recebe o conteúdo, no caso, apenas na última td*/
   box-shadow: 0 12px 30px rgba(10, 102, 194, 0.6);
 }
 
+@media screen and (max-width: 768px) {
+
+  /* Faz a tabela virar bloco e ocupar 100% */
+  table {
+    display: block;
+    width: 100%;
+  }
+
+  tr {
+    display: block;
+    width: 100%;
+  }
+
+  th, td {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Ajusta o vídeo */
+  .video {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Ajusta o iframe */
+  #iframe {
+    height: 400px;
+  }
+
+  /* Ajusta a logo */
+  .ImgEfeito {
+    width: 220px;
+  }
+
+  /* Ajusta o botão do PS */
+  .psBotao {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* Coloca os botões em coluna e com espaço */
+  td:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding: 20px 0;
+  }
+
+  /* Ajusta o tamanho dos botões */
+  .botao {
+    width: 85%;
+    padding: 18px 0;
+  }
+
+  /* Ajusta o botão de cadastro */
+  .cadastro {
+    width: 85%;
+  }
+}
