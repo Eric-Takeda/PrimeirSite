@@ -272,7 +272,6 @@ td:last-child {  /*Td que recebe o conteúdo, no caso, apenas na última td*/
 
   .ImgEfeito {
     width: 220px;
-    text-align: center;
   }
 
   .psBotao {
@@ -300,6 +299,7 @@ td:last-child {  /*Td que recebe o conteúdo, no caso, apenas na última td*/
     width: 95%;
   }
 }
+
 
 
 
